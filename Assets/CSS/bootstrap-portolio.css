@@ -1,0 +1,95 @@
+p {
+  margin-left: 10px;
+}
+
+.bickground {
+  margin-top: 30px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px;
+  background-color: grey;
+}
+
+.portpic {
+  width: 200px;
+  height: 150px;
+  margin: 30px 0px 80px 0px;
+}
+.piccontainer {
+  margin: 0;
+  padding: 0;
+}
+.Labels {
+  background-color: black;
+  position: absolute;
+  left: 15px;
+  bottom: 80px;
+
+  max-width: 200px;
+  color: white;
+}
+.mepic {
+  width: 250px;
+  padding-left: 10px;
+  margin: 5px 10px 5px 0px;
+}
+
+@media (max-width: 960px) {
+  .order-1 {
+    margin-top: 0;
+    width: 100%;
+    text-align: right;
+  }
+  .nav-link {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin: 0 10px 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .order-1 {
+    margin-top: 0;
+    width: 100%;
+    text-align: right;
+  }
+
+  .nav-link {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin: 0 10px 0 10px;
+  }
+}
+@media (max-width: 640px) {
+  .order-1 {
+    margin-top: 0;
+    width: 100%;
+    text-align: right;
+  }
+  .nav-brand {
+    text-align: center;
+  }
+
+  .nav-link {
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin: 0 10px 0 10px;
+  }
+
+  .myname {
+    width: 100%;
+    text-align: center;
+  }
+  .order-3 {
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+}
