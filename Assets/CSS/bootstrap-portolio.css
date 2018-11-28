@@ -1,9 +1,23 @@
+.myName {
+  color: lightsalmon;
+}
+a {
+  margin: 5px;
+  color: white;
+}
+a:hover {
+  color: lightsalmon;
+}
+.aboutMe {
+  padding-top: 33px;
+}
 p {
   margin-left: 10px;
 }
 
 .bickground {
   margin-top: 30px;
+  background-color: lightgray;
 }
 footer {
   position: fixed;
